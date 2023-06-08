@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+#colorButton {
+  background-color: #2196f3;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+#colorButton:hover {
+  background-color: #0b7dda;
+}
+
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -62,7 +82,7 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 10px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -76,6 +96,52 @@
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  border-radius: 10px;
+}
+
+section {
+  background-color: #d8d4bc;
+  margin: 8px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+section article {
+    margin: 8px;
+    padding: 8px;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+header {
+  margin: 8px;
+}
+
+nav {
+  border: 1px solid black;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+footer {
+  margin: 0px 8px 8px 8px;
+}
+
+h1 {
+  margin: 8px 8px 8px 0px;
+}
+
+h2 {
+  margin: 0px 0px 16px 16px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -131,38 +197,4 @@
 .fa-instagram {
   background: #125688;
   color: white;
-}
-
-section {
-  background-color: rgb(204, 221, 252);
-  margin: 8px;
-  padding: 8px;
-  border: 1px solid black;
-}
-
-.hero-img {
-  width: 100%;
-  height: auto;
-  border: 1px solid black;
-}
-
-header {
-  margin: 8px;
-}
-
-nav {
-  border: 1px solid black;
-}
-
-body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-footer {
-  margin: 0px 8px 8px 8px;
-}
-
-h1 {
-  margin: 8px 8px 8px 0px;
 }
