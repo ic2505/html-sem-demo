@@ -1,8 +1,8 @@
 
 const getRandomPastelColor = () => { 
     return "hsl(" + 360 * Math.random() + ',' +
-               (15 + 80 * Math.random()) + '%,' + 
-               (75 + 20 * Math.random()) + '%)'
+               (20 + 75 * Math.random()) + '%,' + 
+               (80 + 15 * Math.random()) + '%)'
   }
 
 colorButton = document.getElementById("colorButton");
