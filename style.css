@@ -99,12 +99,17 @@
   border-radius: 10px;
 }
 
+.column img:hover {
+  opacity: 0.7;
+}
+
 section {
-  background-color: #d8d4bc;
+  background-color: white;
   margin: 8px;
   padding: 20px;
   border: 1px solid black;
   border-radius: 10px;
+  opacity: 0.88;
 }
 
 section article {
